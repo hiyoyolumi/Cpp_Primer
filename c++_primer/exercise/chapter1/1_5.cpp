@@ -8,5 +8,5 @@ int main()
     std::cout << val1 << " * " << val2 << std::endl;
     std::cout << " = " << val1 * val2 << std::endl;
 
-    return 0;   
+    return 0;
 }

@@ -4,7 +4,8 @@ int main()
 {
     int sum = 0;
     int n = 50;
-    while (n <= 100) {
+    while (n <= 100)
+    {
         sum += n;
         n++;
     }

@@ -10,6 +10,6 @@ int main()
               << " and " << val2;
               << " is " << val1 + val2 << std::endl;
         /* */
-    */
-    return 0;
+    * /
+        return 0;
 }
