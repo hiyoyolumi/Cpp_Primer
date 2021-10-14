@@ -1,0 +1,7 @@
+typedef string str_arr[10];
+str_arr &func(void);
+
+auto func(void) -> string (&)[10];
+
+string str[10];
+decltype(str) func(void);

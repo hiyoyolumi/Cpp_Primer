@@ -1,0 +1,5 @@
+//把 decltype 理解成一种特殊的类型声明
+decltype(odd)& arrPtr(int i)
+{
+	return (i % 2) ? &odd : &even;
+}
