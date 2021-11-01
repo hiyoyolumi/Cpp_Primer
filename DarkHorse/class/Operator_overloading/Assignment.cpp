@@ -56,6 +56,7 @@ private:
     int *m_Ptr;
 };
 
+//这里使用 build 引用以减少拷贝造成的开销
 ostream& operator<<(ostream& cout, build &p)
 {
     cout << p.m_A << " " << p.m_B << " " << *p.m_Ptr;
