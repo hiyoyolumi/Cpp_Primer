@@ -18,7 +18,8 @@ public:
 class Cat : public Animal
 {
 public:
-    void speak()
+    //重写虚函数
+    virtual void speak()
     {
         cout << "Cat speak" << endl;
     }
