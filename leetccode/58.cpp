@@ -34,6 +34,7 @@ void test02() {
         cout << a << endl;
     }
     cout << "------------" << endl;
+    vec[0] = 100;
     for (auto it = vec.begin(); it != vec.end(); it++) {
         // cout << it << endl;
         cout << *it << endl;
