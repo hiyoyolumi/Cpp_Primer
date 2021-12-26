@@ -25,7 +25,7 @@ public:
     }
 };
 
-void do_speak(Animal &animal)
+void do_speak(Animal &animal) //Animal引用
 {
     animal.speak();
 }
